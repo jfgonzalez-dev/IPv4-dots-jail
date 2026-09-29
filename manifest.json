@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "IPv4 dots jail",
+  "version": "1.0",
+  "description": "Al usar la extensión, captura los puntos de las direcciones IPv4 entre corchetes.",
+  "permissions": [
+    "activeTab", 
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "capture-dots": {
+      "suggested_key": {
+        "default": "Alt+C"
+      },
+      "description": "Copiar al portapapeles capturando los puntos."
+    }
+  }
+}
