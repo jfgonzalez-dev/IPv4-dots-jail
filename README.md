@@ -2,7 +2,7 @@
 
 A lightweight Chromium extension that securely copies selected text to your clipboard while automatically defanging IPv4 addresses. 
 
-When documenting or sharing potentially malicious infrastructure, this tool ensures that IP addresses cannot be accidentally clicked or resolved by wrapping their periods in square brackets (e.g., `192.168.1.1` becomes `192.168.1[.]1`).
+When documenting or sharing potentially malicious infrastructure, this tool ensures that IP addresses cannot be accidentally clicked or resolved by wrapping their periods in square brackets (e.g., `192.168.1.1` becomes `192[.]168[.]1[.]1`).
 
 ## Usage
 
